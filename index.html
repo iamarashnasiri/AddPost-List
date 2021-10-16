@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>create post</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Create Post</h2>
+        <form id="create-post" action="">
+            <label for="title">Title</label><br>
+            <input type="text" id="title"><br>
+            <label for="author">Author </label><br>
+            <input type="text" id="author"><br>
+            <label for="content">Content</label><br>
+            <textarea name="" id="content" cols="" rows="2"></textarea><br>
+            <input type="submit" value="Post">
+        </form>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 25%;">Title</th>
+                    <th style="width: 25%;">Author</th>
+                    <th style="width: 40%;">Conetent</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
